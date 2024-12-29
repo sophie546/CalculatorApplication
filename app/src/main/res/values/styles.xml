@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme -->
+    <style name="Base.Theme.MyCalculator" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Custom application theme that inherits from the base theme -->
+    <style name="Theme.MyCalculator" parent="Base.Theme.MyCalculator">
+        <!-- Any additional customizations -->
+    </style>
+
+    <!-- Custom button style -->
+    <style name="CustomButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:background">?attr/colorPrimary</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">25sp</item>
+    </style>
+
+    <!-- Custom style for the "=" button -->
+    <style name="CustomEqualButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:background">@color/colorPrimaryRed</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">25sp</item>
+    </style>
+
+</resources>
